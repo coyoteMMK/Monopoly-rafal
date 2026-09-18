@@ -1,0 +1,135 @@
+[
+    {
+        "id": "kebab",
+        "nombre": "EL KEBAB",
+        "precio": 200,
+        "color": "#0072bb",
+        "tipo": "calle"
+    },
+    {
+        "id": "biblio",
+        "nombre": "LA BIBLIOTECA",
+        "precio": 150,
+        "color": "#f7941d",
+        "tipo": "calle"
+    },
+    {
+        "id": "optica",
+        "nombre": "LA ÓPTICA",
+        "precio": 300,
+        "color": "#1fb25a",
+        "tipo": "calle"
+    },
+    {
+        "id": "ayuntamiento",
+        "nombre": "AYUNTAMIENTO",
+        "precio": 400,
+        "color": "#ed1b24",
+        "tipo": "calle"
+    },
+    {
+        "id": "ferreteria",
+        "nombre": "FERRETERÍA",
+        "precio": 100,
+        "color": "#946247",
+        "tipo": "calle"
+    },
+    {
+        "id": "bus",
+        "nombre": "PARADA DE BUS",
+        "precio": 200,
+        "color": "#ffffff",
+        "tipo": "estacion"
+    },
+    {
+        "id": "policia",
+        "nombre": "POLICÍA LOCAL",
+        "precio": null,
+        "color": "#0a3d91",
+        "tipo": "policia"
+    },
+    {
+        "id": "papeleria-plumier",
+        "nombre": "PAPELERÍA PLUMIER",
+        "precio": null,
+        "color": "#0072bb",
+        "tipo": "calle"
+    },
+    {
+        "id": "la-dinamo",
+        "nombre": "LA DINAMO",
+        "precio": null,
+        "color": "#f7941d",
+        "tipo": "calle"
+    },
+    {
+        "id": "la-parrala",
+        "nombre": "LA PARRALA",
+        "precio": null,
+        "color": "#1fb25a",
+        "tipo": "calle"
+    },
+    {
+        "id": "bar-el-majaero",
+        "nombre": "BAR EL MAJAERO",
+        "precio": null,
+        "color": "#ed1b24",
+        "tipo": "calle"
+    },
+    {
+        "id": "el-videoclub",
+        "nombre": "EL VIDEOCLUB",
+        "precio": null,
+        "color": "#946247",
+        "tipo": "calle"
+    },
+    {
+        "id": "la-bravo",
+        "nombre": "LA BRAVO",
+        "precio": null,
+        "color": "#0072bb",
+        "tipo": "calle"
+    },
+    {
+        "id": "la-doky",
+        "nombre": "LA DOKY",
+        "precio": null,
+        "color": "#f7941d",
+        "tipo": "calle"
+    },
+    {
+        "id": "cal-javi",
+        "nombre": "CAL JAVI",
+        "precio": null,
+        "color": "#1fb25a",
+        "tipo": "calle"
+    },
+    {
+        "id": "el-calvario",
+        "nombre": "EL CALVARIO",
+        "precio": null,
+        "color": "#ed1b24",
+        "tipo": "calle"
+    },
+    {
+        "id": "optica-gomez",
+        "nombre": "ÓPTICA GÓMEZ",
+        "precio": null,
+        "color": "#946247",
+        "tipo": "calle"
+    },
+    {
+        "id": "hiperber",
+        "nombre": "HIPERBER",
+        "precio": null,
+        "color": "#0072bb",
+        "tipo": "calle"
+    },
+    {
+        "id": "horizonte",
+        "nombre": "HORIZONTE",
+        "precio": null,
+        "color": "#f7941d",
+        "tipo": "calle"
+    }
+]
