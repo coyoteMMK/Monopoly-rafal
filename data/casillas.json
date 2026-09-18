@@ -51,84 +51,84 @@
     {
         "id": "papeleria-plumier",
         "nombre": "PAPELERÍA PLUMIER",
-        "precio": null,
+        "precio": 250,
         "color": "#0072bb",
         "tipo": "calle"
     },
     {
         "id": "la-dinamo",
         "nombre": "LA DINAMO",
-        "precio": null,
+        "precio": 180,
         "color": "#f7941d",
         "tipo": "calle"
     },
     {
         "id": "la-parrala",
         "nombre": "LA PARRALA",
-        "precio": null,
+        "precio": 320,
         "color": "#1fb25a",
         "tipo": "calle"
     },
     {
         "id": "bar-el-majaero",
         "nombre": "BAR EL MAJAERO",
-        "precio": null,
+        "precio": 420,
         "color": "#ed1b24",
         "tipo": "calle"
     },
     {
         "id": "el-videoclub",
         "nombre": "EL VIDEOCLUB",
-        "precio": null,
+        "precio": 140,
         "color": "#946247",
         "tipo": "calle"
     },
     {
         "id": "la-bravo",
         "nombre": "LA BRAVO",
-        "precio": null,
+        "precio": 260,
         "color": "#0072bb",
         "tipo": "calle"
     },
     {
         "id": "la-doky",
         "nombre": "LA DOKY",
-        "precio": null,
+        "precio": 190,
         "color": "#f7941d",
         "tipo": "calle"
     },
     {
         "id": "cal-javi",
         "nombre": "CAL JAVI",
-        "precio": null,
+        "precio": 340,
         "color": "#1fb25a",
         "tipo": "calle"
     },
     {
         "id": "el-calvario",
         "nombre": "EL CALVARIO",
-        "precio": null,
+        "precio": 440,
         "color": "#ed1b24",
         "tipo": "calle"
     },
     {
         "id": "optica-gomez",
         "nombre": "ÓPTICA GÓMEZ",
-        "precio": null,
+        "precio": 160,
         "color": "#946247",
         "tipo": "calle"
     },
     {
         "id": "hiperber",
         "nombre": "HIPERBER",
-        "precio": null,
+        "precio": 270,
         "color": "#0072bb",
         "tipo": "calle"
     },
     {
         "id": "horizonte",
         "nombre": "HORIZONTE",
-        "precio": null,
+        "precio": 210,
         "color": "#f7941d",
         "tipo": "calle"
     }
