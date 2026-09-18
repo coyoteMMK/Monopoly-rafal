@@ -27,9 +27,21 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
         datosCasillas = await response.json();
     } catch (error) {
-        console.error('No se pudieron cargar los datos:', error);
-        showMessage('No se pudieron cargar las casillas. Abre el proyecto con un servidor local.');
-        return;
+        const fallbackScript = document.getElementById('casillas-data');
+
+        if (fallbackScript) {
+            try {
+                datosCasillas = JSON.parse(fallbackScript.textContent);
+            } catch (parseError) {
+                console.error('No se pudieron cargar los datos desde el fallback:', parseError);
+                showMessage('No se pudieron cargar las casillas. Abre el proyecto con un servidor local.');
+                return;
+            }
+        } else {
+            console.error('No se pudieron cargar los datos:', error);
+            showMessage('No se pudieron cargar las casillas. Abre el proyecto con un servidor local.');
+            return;
+        }
     }
 
     datosCasillas.forEach((casilla) => {
