@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', async () => {
+document.addEventListener('DOMContentLoaded', () => {
     const siteSelector = document.getElementById('site-selector');
     const imageUpload = document.getElementById('image-upload');
     const dropZone = document.getElementById('drop-zone');
@@ -18,30 +18,19 @@ document.addEventListener('DOMContentLoaded', async () => {
     const logoTuareg = document.getElementById('card-back-logo-top');
     const busIcon = document.getElementById('card-back-bus-icon');
 
-    let datosCasillas;
+    const fallbackScript = document.getElementById('casillas-data');
+    let datosCasillas = [];
 
     try {
-        const response = await fetch('data/casillas.json');
-        if (!response.ok) {
-            throw new Error(`Error HTTP ${response.status}`);
-        }
-        datosCasillas = await response.json();
-    } catch (error) {
-        const fallbackScript = document.getElementById('casillas-data');
-
         if (fallbackScript) {
-            try {
-                datosCasillas = JSON.parse(fallbackScript.textContent);
-            } catch (parseError) {
-                console.error('No se pudieron cargar los datos desde el fallback:', parseError);
-                showMessage('No se pudieron cargar las casillas. Abre el proyecto con un servidor local.');
-                return;
-            }
+            datosCasillas = JSON.parse(fallbackScript.textContent);
         } else {
-            console.error('No se pudieron cargar los datos:', error);
-            showMessage('No se pudieron cargar las casillas. Abre el proyecto con un servidor local.');
-            return;
+            throw new Error('No hay datos incrustados en la página.');
         }
+    } catch (error) {
+        console.error('No se pudieron cargar los datos:', error);
+        showMessage('No se pudieron cargar las casillas.');
+        return;
     }
 
     datosCasillas.forEach((casilla) => {
