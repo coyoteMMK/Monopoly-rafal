@@ -10,6 +10,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const cardColorHeader = document.getElementById('card-color-header');
     const cardImagePreview = document.getElementById('card-image-preview');
     const noImageText = document.getElementById('no-image-text');
+    const specialFront = document.getElementById('special-front');
+    const specialIcon = document.getElementById('special-icon');
+    const specialTitle = document.getElementById('special-title');
+    const specialSubtitle = document.getElementById('special-subtitle');
     const cardBackText = document.getElementById('card-back-text');
     const cardBackBorder = document.getElementById('card-back-border');
     const normalContainer = document.getElementById('card-back-normal-container');
@@ -44,6 +48,28 @@ document.addEventListener('DOMContentLoaded', () => {
         const seleccion = datosCasillas.find((casilla) => casilla.id === event.target.value);
         if (!seleccion) {
             return;
+        }
+
+        const esEspecial = seleccion.tipo === 'especial';
+        dropZone.style.display = esEspecial ? 'none' : '';
+        specialFront.classList.toggle('hidden', !esEspecial);
+        cardImagePreview.style.visibility = esEspecial ? 'hidden' : 'visible';
+        noImageText.classList.toggle('hidden', esEspecial);
+
+        if (esEspecial) {
+            const configuracionEspecial = {
+                salida: { icono: 'GO', titulo: 'CASILLA DE SALIDA', subtitulo: 'AVANZA Y COBRA 200€' },
+                parking: { icono: 'P', titulo: 'PARKING GRATUITO', subtitulo: 'DESCANSO Y SUERTE' },
+                suerte: { icono: '?', titulo: 'SUERTE', subtitulo: 'TOMA UNA CARTA' },
+                fontaneria: { icono: 'AGUA', titulo: 'FONTANERÍA', subtitulo: 'SERVICIO DE AGUA' },
+                electricidad: { icono: '⚡', titulo: 'ELECTRICIDAD', subtitulo: 'SERVICIO ELÉCTRICO' },
+                'impuesto-joyas': { icono: '€', titulo: 'IMPUESTO JOYAS', subtitulo: 'PAGA 100€' }
+            }[seleccion.especial];
+
+            specialIcon.textContent = configuracionEspecial.icono;
+            specialIcon.style.backgroundColor = seleccion.color;
+            specialTitle.textContent = configuracionEspecial.titulo;
+            specialSubtitle.textContent = configuracionEspecial.subtitulo;
         }
 
         cardTitlePreview.textContent = seleccion.nombre;

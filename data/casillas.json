@@ -299,5 +299,53 @@
         "precio": 320,
         "color": "#0072bb",
         "tipo": "calle"
+    },
+    {
+        "id": "casilla-de-salida",
+        "nombre": "CASILLA DE SALIDA",
+        "precio": null,
+        "color": "#ed1b24",
+        "tipo": "especial",
+        "especial": "salida"
+    },
+    {
+        "id": "parking-gratuito",
+        "nombre": "PARKING GRATUITO",
+        "precio": null,
+        "color": "#f7941d",
+        "tipo": "especial",
+        "especial": "parking"
+    },
+    {
+        "id": "suerte",
+        "nombre": "SUERTE",
+        "precio": null,
+        "color": "#0072bb",
+        "tipo": "especial",
+        "especial": "suerte"
+    },
+    {
+        "id": "fontaneria",
+        "nombre": "FONTANERÍA",
+        "precio": null,
+        "color": "#1fb25a",
+        "tipo": "especial",
+        "especial": "fontaneria"
+    },
+    {
+        "id": "electricidad",
+        "nombre": "ELECTRICIDAD",
+        "precio": null,
+        "color": "#f7941d",
+        "tipo": "especial",
+        "especial": "electricidad"
+    },
+    {
+        "id": "impuesto-joyas",
+        "nombre": "IMPUESTO JOYAS",
+        "precio": null,
+        "color": "#ed1b24",
+        "tipo": "especial",
+        "especial": "impuesto-joyas"
     }
 ]
