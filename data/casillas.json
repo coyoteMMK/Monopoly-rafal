@@ -1,37 +1,9 @@
 [
     {
-        "id": "kebab",
-        "nombre": "EL KEBAB",
-        "precio": 200,
-        "color": "#0072bb",
-        "tipo": "calle"
-    },
-    {
         "id": "biblio",
         "nombre": "LA BIBLIOTECA",
         "precio": 150,
         "color": "#f7941d",
-        "tipo": "calle"
-    },
-    {
-        "id": "optica",
-        "nombre": "LA ÓPTICA",
-        "precio": 300,
-        "color": "#1fb25a",
-        "tipo": "calle"
-    },
-    {
-        "id": "ayuntamiento",
-        "nombre": "AYUNTAMIENTO",
-        "precio": 400,
-        "color": "#ed1b24",
-        "tipo": "calle"
-    },
-    {
-        "id": "ferreteria",
-        "nombre": "FERRETERÍA",
-        "precio": 100,
-        "color": "#946247",
         "tipo": "calle"
     },
     {
