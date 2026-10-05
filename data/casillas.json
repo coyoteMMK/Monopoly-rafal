@@ -275,21 +275,21 @@
     {
         "id": "kebab",
         "nombre": "KEBAB",
-        "precio": null,
+        "precio": 150,
         "color": "#0072bb",
         "tipo": "calle"
     },
     {
         "id": "medico",
         "nombre": "MÉDICO",
-        "precio": null,
+        "precio": 300,
         "color": "#0072bb",
         "tipo": "calle"
     },
     {
         "id": "mateo-garre-barber-studio",
         "nombre": "MATEO GARRE BARBER STUDIO",
-        "precio": null,
+        "precio": 275,
         "color": "#0072bb",
         "tipo": "calle"
     },
