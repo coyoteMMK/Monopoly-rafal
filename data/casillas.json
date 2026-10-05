@@ -46,7 +46,7 @@
         "nombre": "BAR MAJAERO",
         "precio": 420,
         "color": "#ed1b24",
-        "tipo": "calle"
+        "tipo": "calle" 
     },
     {
         "id": "el-videoclub",
@@ -269,6 +269,27 @@
         "id": "pollos-el-serillas",
         "nombre": "POLLOS EL SERILLAS",
         "precio": 320,
+        "color": "#0072bb",
+        "tipo": "calle"
+    },
+    {
+        "id": "kebab",
+        "nombre": "KEBAB",
+        "precio": null,
+        "color": "#0072bb",
+        "tipo": "calle"
+    },
+    {
+        "id": "medico",
+        "nombre": "MÉDICO",
+        "precio": null,
+        "color": "#0072bb",
+        "tipo": "calle"
+    },
+    {
+        "id": "mateo-garre-barber-studio",
+        "nombre": "MATEO GARRE BARBER STUDIO",
+        "precio": null,
         "color": "#0072bb",
         "tipo": "calle"
     },
